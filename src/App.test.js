@@ -13,9 +13,10 @@ it('renders without crashing', () => {
 it('contain list of used libraries', () => {
   const dom = render(<App />);
   const libraries = [
-    'create-react-app',
     'styled-components',
-    'testing-library'
+    'testing-library',
+    'prop-types',
+    'react-pure-loaders'
   ];
   libraries.forEach(
     (library) => {
